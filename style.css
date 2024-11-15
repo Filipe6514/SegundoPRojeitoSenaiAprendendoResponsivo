@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.umdoistres{
+    background-color: black;
+}
+
+.imglogo{
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+.art_banner{
+    width: 100%;
+}
+.novidades{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back_text{
+    display: block;
+    background-color: #E98F5B;
+    width: 60%;
+    padding: 1%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 52px;
+    text-shadow: #FFE3D8 2px 1px 1px;
+}
+.cards_title{
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 1px 1px black;
+    position: relative;
+    z-index: 1;
+    margin-top: -52px;
+}
+
+.cards{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.maker{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    .text_parceiros{
+      text-align: center;
+}
+    .parceiros{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+}
+    .imgnivea{
+        width: 140px;
+        border-radius: 25%;
+}
+    .imgmary{
+         width: 150px;
+         border-radius: 25%;
+}
+    .imgoboticario{
+        width: 150px;
+        border-radius: 25%;
+}
+    .imgavon{
+        width: 140px;
+        border-radius: 25%;
+
+}
+}
+img.no-click {
+    cursor: default; 
+  }
+.textomake{
+    text-align: center;
+    text-shadow: rgb(209, 94, 94) 2px 2px;
+    font-size: 50px;
+}
+.penteados{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cortes{
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.foot{
+    background-color: rgb(255, 245, 231);
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foot_text{
+    font-size: 38px;
+}
+.foo{
+    height: auto;
+    font-size: 20px;
+} 
+
+.link{
+    display:inline-block ;
+
+}
+/*
+.botao{
+    background-color: black;
+    width: 25px;
+    height: 12px;
+}
+    */
+.redes{
+    .zap{
+        color: green;
+    }
+    .face{
+        color: blue;
+    }
+    .insta{
+        color: rgb(135, 16, 135);
+    }
+    .twitter{
+        color: rgb(0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .maker{
+        margin: auto;
+    }
+    .card{
+        flex-grow: 1;
+        flex-basis: auto;
+        margin: 15px;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon{
+        height: 50px;
+        padding: 5px 5px;
+    }
+    .back_text{
+        width: 94%;
+    }
+    .parceiros{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .foot{
+        display: block;
+    }
+    .foo{
+        margin-left: 12px;
+    }
+    .redes{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+
+}
